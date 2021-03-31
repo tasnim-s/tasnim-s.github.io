@@ -3605,9 +3605,23 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
-			#wrapper > .copyright a:hover {
-				color: inherit;
-			}
+		#wrapper > .socials {
+			position: fixed;
+			top: 85vh;
+			width: 100vw;
+			font-size: 0.8rem;
+			color: #e37b7c;
+			margin-bottom: 0;
+		}
+
+		#wrapper > .menu {
+			position: fixed;
+			top: 5vh;
+			width: 100vw;
+			font-size: 0.8rem;
+			color: #726193;
+			margin-bottom: 0;
+		}
 
 		#wrapper.is-dragging {
 			-moz-user-select: none;
